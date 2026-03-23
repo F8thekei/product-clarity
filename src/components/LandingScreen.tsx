@@ -1,5 +1,6 @@
 import GoldButton from './GoldButton';
 import ritaPhoto from '../assets/rita.jpeg';
+import rita2Photo from '../assets/rita2.jpeg';
 
 interface LandingScreenProps {
   onStart: () => void;
@@ -175,7 +176,7 @@ export default function LandingScreen({ onStart }: LandingScreenProps) {
               />
 
               <img
-                src={ritaPhoto}
+                src={rita2Photo}
                 alt="Digital Consulting Lab"
                 className="relative z-10 object-cover object-top"
                 style={{
