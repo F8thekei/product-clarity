@@ -158,33 +158,16 @@ export default function LandingScreen({ onStart }: LandingScreenProps) {
             className="flex-shrink-0 flex flex-col items-center"
             style={{ animation: 'fadeSlideUp 0.7s ease 0.15s both' }}
           >
-            <div className="relative">
-              {/* Gold corner brackets */}
-              <div className="absolute -top-2 -left-2 w-6 h-6 border-t-2 border-l-2" style={{ borderColor: '#EB9A20' }} />
-              <div className="absolute -top-2 -right-2 w-6 h-6 border-t-2 border-r-2" style={{ borderColor: '#EB9A20' }} />
-              <div className="absolute -bottom-2 -left-2 w-6 h-6 border-b-2 border-l-2" style={{ borderColor: '#EB9A20' }} />
-              <div className="absolute -bottom-2 -right-2 w-6 h-6 border-b-2 border-r-2" style={{ borderColor: '#EB9A20' }} />
-
-              {/* Glow behind photo */}
-              <div
-                className="absolute inset-0 pointer-events-none"
-                style={{
-                  background: 'radial-gradient(ellipse at center, rgba(235,154,32,0.15) 0%, transparent 70%)',
-                  transform: 'scale(1.2)',
-                }}
-              />
-
-              <img
-                src={rita2Photo}
-                alt="Digital Consulting Lab"
-                className="relative z-10 object-cover object-top"
-                style={{
-                  width: 'clamp(260px, 30vw, 380px)',
-                  height: 'clamp(320px, 38vw, 460px)',
-                  filter: 'brightness(0.95) contrast(1.05)',
-                }}
-              />
-            </div>
+            <img
+              src={rita2Photo}
+              alt="Digital Consulting Lab"
+              className="object-cover object-top"
+              style={{
+                width: 'clamp(260px, 30vw, 380px)',
+                height: 'clamp(320px, 38vw, 460px)',
+                filter: 'brightness(0.95) contrast(1.05)',
+              }}
+            />
 
             {/* Name tag */}
             <div
