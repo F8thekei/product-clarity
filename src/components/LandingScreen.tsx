@@ -1,5 +1,4 @@
 import GoldButton from './GoldButton';
-import ritaPhoto from '../assets/rita.jpeg';
 import rita2Photo from '../assets/rita2.jpeg';
 
 interface LandingScreenProps {
